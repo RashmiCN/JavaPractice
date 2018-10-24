@@ -3,7 +3,7 @@ create table PRODUCT_MASTER (
 	prod_name varchar(100) not null,
 	manf_name varchar(100) not null,
 	price decimal(5,2) not null,
-	rating decimal(2,2) not  null,
+	rating decimal(5,2) not  null,
 	on_hand_qty number(10) not null,
 	on_order_qty number(10) not null,
 	constraint prod_pk primary key (prod_id)
